@@ -105,7 +105,7 @@ export default function Stats() {
       </div>
 
       {/* ================= MAIN SECTION ================= */}
-      <section className="stats" ref={sectionRef}>
+      <section className="stats_sec" ref={sectionRef}>
         <div className="stats__background">
           <div className="stats__gradient"></div>
           <div className="stats__glow"></div>
