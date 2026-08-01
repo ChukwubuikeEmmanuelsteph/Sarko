@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .stats_sec{
   position: relative;
   overflow: hidden;
@@ -6,9 +12,6 @@
   padding: 120px 0;
 }
 
-/*==============================
-BACKGROUND
-==============================*/
 
 .stats__background {
   position: absolute;
@@ -47,37 +50,6 @@ BACKGROUND
   z-index: 2;
 }
 
-/*==============================
-TOP BANNER
-==============================*/
-
-/* .stats__banner {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 90px;
-};
-
-.stats__banner a {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-
-  color: white;
-  text-decoration: none;
-
-  font-size: 15px;
-  font-weight: 400;
-}
-
-.stats__banner strong {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-.stats__banner svg {
-  color: #EABDFC;
-} */
-
 
 .stats__topbar{
 
@@ -89,8 +61,6 @@ TOP BANNER
     display:flex;
     justify-content:center;
     align-items:center;
-
-    /* margin-bottom:90px; */
 
 }
 
@@ -120,10 +90,6 @@ TOP BANNER
 
 }
 
-/*==============================
-GRID
-==============================*/
-
 .stats__wrapper {
   display: grid;
   grid-template-columns: 1.05fr .95fr;
@@ -131,10 +97,6 @@ GRID
   align-items: center;
   justify-content: center;
 }
-
-/*==============================
-LEFT SIDE
-==============================*/
 
 .stats__left {
   display: flex;
@@ -169,9 +131,6 @@ LEFT SIDE
   margin-bottom: 55px;
 }
 
-/*==============================
-PROGRESS
-==============================*/
 
 .stats__progress-wrapper {
   display: flex;
@@ -212,9 +171,6 @@ PROGRESS
   font-family: Helvetica Now Display;
 }
 
-/*==============================
-BOTTOM
-==============================*/
 
 .stats__bottom {
   display: flex;
@@ -222,9 +178,6 @@ BOTTOM
   gap: 45px;
 }
 
-/*==============================
-BUTTON
-==============================*/
 
 .stats__button {
     transition: all var(--transition-base);
@@ -331,120 +284,6 @@ ANIMATION
 
     opacity:1;
     transform:none;
-
-}
-
-/*==============================
-TABLET
-==============================*/
-
-@media(max-width:1100px){
-
-.stats{
-
-padding:100px 0;
-
-}
-
-.stats__wrapper{
-
-grid-template-columns:1fr;
-gap:70px;
-
-}
-
-.stats__left{
-
-order:2;
-
-}
-
-.stats__right{
-
-order:1;
-
-}
-
-.stats__left h2{
-
-font-size:48px;
-
-}
-
-.stats__image{
-
-height:560px;
-
-}
-
-}
-
-/*==============================
-PHONE
-==============================*/
-
-@media(max-width:768px){
-
-.stats{
-
-padding:80px 0;
-
-}
-
-.stats__banner{
-
-margin-bottom:60px;
-
-}
-
-.stats__banner a{
-
-font-size:13px;
-text-align:center;
-flex-wrap:wrap;
-justify-content:center;
-
-}
-
-.stats__left h2{
-
-font-size:38px;
-
-}
-
-.stats__left p{
-
-font-size:16px;
-
-}
-
-.stats__progress-wrapper{
-
-flex-direction:column;
-gap:30px;
-
-}
-
-.stats__bottom{
-
-flex-direction:column;
-align-items:flex-start;
-gap:30px;
-
-}
-
-.stats__image{
-
-height:420px;
-
-}
-
-.stats__button{
-
-width:100%;
-justify-content:center;
-
-}
 
 }
 
